@@ -1,13 +1,14 @@
 {
+  "name": "wasisession",
   "description": "wasisession",
   "main": "./itxxwasi.js",
-  "engines": {
+  "engines": { 
     "npm": ">=9.7.2",
-    "node": ">=20.0.0"
+    "node": ">=16.0.0"
   },
   "scripts": {
     "start": "node itxxwasi.js",
-    "build": "expo run:web"  
+    "build": "expo build:web"
   },
   "author": "WasiTech",
   "license": "GPL-3.0 license",
@@ -21,8 +22,15 @@
     "body-parser": "^1.20.1",
     "pastebin-js": "^1.0.6",
     "express": "^4.18.1",
-    "path": "^0.12.7",
-    "expo-cli": "^5.0.0"  
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "webpack": "^5.60.0",
+    "babel-loader": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=9.7.2"
   }
 }
 
