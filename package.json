@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node itxxwasi.js",
-    "build": "expo build:web"
+    "build": "npx expo export:web"
   },
   "author": "WasiTech",
   "license": "GPL-3.0 license",
@@ -34,4 +34,5 @@
     "npm": ">=9.7.2"
   }
 }
+
 
