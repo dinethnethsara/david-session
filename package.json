@@ -2,7 +2,7 @@
   "name": "wasisession",
   "description": "wasisession",
   "main": "./itxxwasi.js",
-  "engines": { 
+  "engines": {
     "npm": ">=9.7.2",
     "node": ">=16.0.0"
   },
@@ -23,16 +23,14 @@
     "pastebin-js": "^1.0.6",
     "express": "^4.18.1",
     "path": "^0.12.7",
-    "expo-cli": "^6.0.0"
+    "expo-cli": "^6.0.0",
+    "react-native-web": "~0.19.6",
+    "react-dom": "18.2.0",
+    "react": "18.2.0"
   },
   "devDependencies": {
     "webpack": "^5.60.0",
     "babel-loader": "^8.2.2"
-  },
-  "engines": {
-    "node": ">=16.0.0",
-    "npm": ">=9.7.2"
   }
 }
-
 
